@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    height: 100vh;
+}
+.card-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.img-container img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+.card {
+    width: 18rem;
+}
+
+.overflow-auto {
+    overflow-x: auto;
+  }
